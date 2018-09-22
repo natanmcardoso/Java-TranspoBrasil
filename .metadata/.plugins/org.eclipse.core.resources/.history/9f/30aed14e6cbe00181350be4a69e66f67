@@ -1,0 +1,24 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class Exercicio01 {
+	public static void main(String [] args) {
+		
+		Scanner nota = new Scanner(System.in);
+		System.out.println("Informe uma nota:");
+		String nota1 = nota.nextLine();
+		System.out.println("Informe segunda nota:");
+		String nota2 = nota.nextLine();
+		System.out.println("Informe terceira nota:");
+		String nota3 = nota.nextLine();
+		
+		int nota4 = Integer.parseInt(nota1);
+		int nota5 = Integer.parseInt(nota2);
+		int nota6 = Integer.parseInt(nota3);
+		
+
+	}
+	
+	
+}

@@ -1,0 +1,19 @@
+package br.com.cursojava.aula002;
+import java.util.Scanner;
+
+public class Exercicio10 {
+	public static void main(String [] args){
+		System.out.println("Calculo. \n");
+		
+		Scanner nota = new Scanner(System.in);
+		System.out.printf("Informe o valor: \n");
+		double nota1 = Double.parseDouble(nota.nextLine());
+		
+		System.out.printf("Informe o valor: \n");
+		double nota2 = Double.parseDouble(nota.nextLine());
+		
+		System.out.printf("Informe o valor: \n");
+		double nota3 = Double.parseDouble(nota.nextLine());
+		
+	}
+}

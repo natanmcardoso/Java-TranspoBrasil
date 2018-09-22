@@ -1,0 +1,11 @@
+package br.com.cursojava.aula002;
+import java.util.Scanner;
+
+public class Exercicio11 {
+	public static void main(String [] args){
+		System.out.println("Idade para tirar CNH. \n");
+		
+		Scanner nota = new Scanner(System.in);
+		System.out.printf("Informe a 1º Nota: \n");
+		double nota1 = Double.parseDouble(nota.nextLine());
+}

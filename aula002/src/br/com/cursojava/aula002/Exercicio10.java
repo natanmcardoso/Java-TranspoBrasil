@@ -1,0 +1,34 @@
+package br.com.cursojava.aula002;
+import java.util.Scanner;
+
+public class Exercicio10 {
+	public static void main(String [] args){
+		System.out.println("Calculo da média. \n");
+		
+		Scanner nota = new Scanner(System.in);
+		System.out.printf("Informe a 1º Nota: \n");
+		double nota1 = Double.parseDouble(nota.nextLine());
+		
+		System.out.printf("Informe a 2º Nota: \n");
+		double nota2 = Double.parseDouble(nota.nextLine());
+		
+		System.out.printf("Informe a 3º Nota: \n");
+		double nota3 = Double.parseDouble(nota.nextLine());
+		
+		double resultado = (nota1 + nota2 + nota3) / 3;
+		
+		System.out.printf("Sua média é: %.2f \n", resultado);
+		
+		if (resultado >=7) {
+			System.out.println("Aprovado");
+		}
+		else {
+			System.out.println("Reprovado");
+		}
+		
+		
+		
+		
+		
+	}
+}

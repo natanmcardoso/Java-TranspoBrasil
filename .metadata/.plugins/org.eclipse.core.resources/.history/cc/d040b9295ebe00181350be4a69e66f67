@@ -1,0 +1,12 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class ExemploConversao {
+
+	public static void main(String [] args){
+		Scanner teclado = new Scanner(System.in);
+		
+		teclado.close();
+	}
+}

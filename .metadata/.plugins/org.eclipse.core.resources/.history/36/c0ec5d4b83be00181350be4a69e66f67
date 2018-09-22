@@ -1,0 +1,21 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class Exercicio06 {
+	public static void main(String [] args){
+		System.out.println("Calculo da idade em dias. \n");
+		
+		Scanner idade = new Scanner(System.in);
+		System.out.printf("Informe sua idade em dias: \n");
+		int idade2 = Integer.parseInt(idade.nextLine());
+		
+		int resultado = ( idade2 / 360);
+		
+		System.out.printf("Sua idade em anos %f , meses %f , dias %f:  \n", resultado);
+				
+		
+		
+		
+	}
+}

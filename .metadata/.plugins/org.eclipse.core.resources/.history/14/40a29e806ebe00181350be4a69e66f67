@@ -1,0 +1,17 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class Exercicio02 {
+	public static void main(String [] args); {
+	
+	Scanner teclado = new Scanner(System.in);
+	System.out.println("Calculo de um Retângulo.")
+	
+	System.out.println("Informe uma nota:");
+	String nota1 = nota.nextLine();
+	System.out.println("Informe segunda nota:");
+	String nota2 = nota.nextLine();
+
+	}
+}

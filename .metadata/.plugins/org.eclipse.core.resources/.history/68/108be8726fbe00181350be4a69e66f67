@@ -1,0 +1,19 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class Exercicio02 {
+	public static void main(String [] args) {
+	
+	System.out.println("Calculo de um Retângulo.\n" );
+	
+	Scanner base = new Scanner(System.in);
+	System.out.printf("Informe a base:");
+	String base1 = base.nextLine();
+	Scanner altura = new Scanner(System.in);
+	System.out.printf("Informe a altura:");
+	String altura1 = altura.nextLine();
+	
+
+	}
+}

@@ -1,0 +1,14 @@
+package br.com.cursojava.aula002;
+
+public class Exercicio01 {
+	public static void main(String [] args) {
+		
+		int nota1 = 7
+		int nota2 = 8
+		int nota3 = 10
+		
+		
+	}
+	
+	
+}

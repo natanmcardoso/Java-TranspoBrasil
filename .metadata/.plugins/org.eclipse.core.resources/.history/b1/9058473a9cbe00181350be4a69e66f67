@@ -1,0 +1,15 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class Exercicio15 {
+	public static void main(String [] args){
+		
+		System.out.println("Calculo Salarial \n");
+		
+		Scanner salario = new Scanner(System.in);
+		System.out.printf("Informe sua idade para saber em qual categoria vocês se encaixa: \n");
+		double liquido = Integer.parseInt(salario.nextLine());
+		
+	}
+}

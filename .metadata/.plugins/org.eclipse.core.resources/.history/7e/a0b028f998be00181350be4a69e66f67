@@ -1,0 +1,15 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class Exercicio14 {
+	public static void main(String [] args){
+		
+		System.out.println("Informe sua idade: \n");
+	
+		Scanner numero = new Scanner(System.in);
+		System.out.printf("Informe um número para saber se ele é par ou impar: \n");
+		int paresimpares = Integer.parseInt(numero.nextLine());
+	
+	}
+}

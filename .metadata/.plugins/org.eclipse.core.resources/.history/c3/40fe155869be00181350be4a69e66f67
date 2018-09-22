@@ -1,0 +1,19 @@
+package br.com.cursojava.aula002;
+
+public class ExemploBoxUnbox {
+	public static void main(String [] args){
+		
+		//Pré Java 5 
+		int numero = 10;
+		 Interger wrapper = new Interger (numero);
+		 int num = wrapper.IntValue();
+		 num++;
+		 wrapper = new Interger(num);
+		 
+		 //Pós Java 5
+		 int numero = 10;
+		 Interger wrapper2 = mumero2;
+		 wrapper2++;
+		 
+	}
+}

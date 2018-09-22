@@ -1,0 +1,41 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class Exercicio15 {
+	public static void main(String [] args){
+		
+		System.out.println("Calculo Salarial \n");
+		
+		Scanner salario = new Scanner(System.in);
+		System.out.printf("Informe seu salário: \n");
+		double liquido = Double.parseDouble(salario.nextLine());
+		double descontoInss = liquido * 0.11;
+		double salarioAposInss = liquido * 0.89;
+		double percentualIr = 0;
+		double salarioLiquido = 0;
+		double descontoIrValor = 0;
+		
+		if (salarioAposInss >= 1800){
+			
+			if (salarioAposInss <= 2400){
+				percentualIr = 7.5;
+				}
+			else if (salarioAposInss <=3600 ){
+				percentualIr = 24;
+			}
+				else {
+					percentualIr = 32;
+	
+				}
+				
+			}
+
+
+		descontoIrValor = salarioAposInss * percentualIr / 100;
+		liquido = salarioAposInss - descontoIrValor;
+		
+		System.out.printf("Salario inicial R$%.2f, desconto INSS R$%.2f, percental desconto IRPF %.2f%% - R$%.2f, salário líquido: %.2f.\n", liquaido, descontoInss, descontoRF, descontoIrValor, salarioLiquido);
+		
+}
+		

@@ -1,0 +1,20 @@
+package br.com.cursojava.aula002;
+import java.util.Scanner;
+
+public class Exercicio13 {
+	public static void main(String [] args){
+	
+		System.out.println("Par ou Impar. \n");
+	
+		Scanner numero = new Scanner(System.in);
+		System.out.printf("Informe um número para saber se ele é par ou impar: \n");
+		int paresimpares = Integer.parseInt(numero.nextLine());
+		
+		if (paresimpares % 2 == 0){
+			System.out.printf("O número escolhido é Par.", paresimpares);
+		}
+		else {
+			System.out.printf("O número escolhido é Impar.", paresimpares);
+		}
+	}
+}

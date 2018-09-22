@@ -1,0 +1,11 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class Exercicio03 {
+	public static void main(String [] args){
+		
+		System.out.println("Calculo do valor de um produto com desconto.\n" );
+		
+	}
+}

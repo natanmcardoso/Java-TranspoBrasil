@@ -1,0 +1,6 @@
+package br.com.cursojava.aula002;
+
+public class Exercicio01 {
+	public static void main(String [] args);
+	
+}

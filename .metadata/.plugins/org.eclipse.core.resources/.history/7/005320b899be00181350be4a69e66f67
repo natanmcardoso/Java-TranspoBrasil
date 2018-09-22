@@ -1,0 +1,21 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class Exercicio14 {
+	public static void main(String [] args){
+		
+		System.out.println("Categoria por Idade \n");
+	
+		Scanner idade = new Scanner(System.in);
+		System.out.printf("Informe sua idade para saber em qual categoria vocês se encaixa: \n");
+		int categoria = Integer.parseInt(idade.nextLine());
+		
+		if (categoria >= 18 ){
+			System.out.printf("Você se encaixa na categoria Adulto", categoria);
+		}
+		else if (categoria >= 14) {
+			System.out.printf("Você se encaixa na categoria Juvenil", categoria);
+		}
+	}
+}
